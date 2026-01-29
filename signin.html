@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="#">
+        <div class="container">
+            <h1 style="text-align: center; color: #E1D4FF;">Sign in Form</h1>
+            <p style="text-align: center;color: #E1D4FF;">Pleas fill in this form to sign in your account</p>
+            <hr>
+            <label for="name">Name</label>
+            <input type="text" placeholder="Enter name" name="name" id="name" required>
+
+            <label for="email">Email address</label>
+            <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+            <label for="Phone">Phone</label>
+            <input type="tel" placeholder="Enter Phone Number" name="phone" id="phone" required>
+
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="Enter your password" required>
+            <hr>
+
+            <p style="text-align: center;">By Loggin to this account you agree to our Term & Privacy</p>
+            <label >
+                <input type="checkbox" name="terms_agree" required>
+                I accept the <a href="#" target="_blank">Terms & Condition</a> and <a href="#" target="_blank">Privacy Policy</a>
+            </label>
+            <button type="submit" class="registerbtn">Signin</button>
+
+            
+            <p style="text-align: center;">Don't have an account?<a href="index.html">Register</a></p>
+            
+        </div>
+    </form>
+</body>
+</html>

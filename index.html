@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="#">
+        <div class="container">
+            <h1 style="text-align: center; color: #E1D4FF;">Register Form</h1>
+            <p style="text-align: center;color: #E1D4FF;">Pleas fill in this form to create an account</p>
+            <hr>
+            <label for="name">Name</label>
+            <input type="text" placeholder="Enter name" name="name" id="name" required>
+
+            <label for="birthday">Enter your birthday</label>
+            <input type="date" name="birthday" id="birthday" required>
+
+            <label for="email">Email address</label>
+            <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+            <label for="country">Choose a Country</label>
+            <select name="country" id="country" required>
+                <option value="">---Select your country---</option>
+                <option value="AF">Afghanistan</option>
+                <option value="AM">Armenia</option>
+                <option value="AZ">Azerbaijan</option>
+                <option value="BH">Bahrain</option>
+                <option value="BD">Bangladesh</option>
+                <option value="BT">Bhutan</option>
+                <option value="IO">British Indian Ocean Territory</option>
+                <option value="BN">Brunei Darussalam</option>
+                <option value="KH">Cambodia (wonderful country)</option>
+                <option value="CN">China</option>
+                <option value="CX">Christmas Island</option>
+                <option value="CC">Cocos (Keeling) Islands</option>
+                <option value="CY">Cyprus</option>
+                <option value="GE">Georgia</option>
+                <option value="HK">Hong Kong</option>
+                <option value="IN">India</option>
+                <option value="ID">Indonesia</option>
+                <option value="IR">Iran</option>
+                <option value="IQ">Iraq</option>
+                <option value="IL">Israel</option>
+                <option value="JP">Japan</option>
+                <option value="JO">Jordan</option>
+                <option value="KZ">Kazakhstan</option>
+                <option value="KP">Korea, North</option>
+                <option value="KR">Korea, South</option>
+                <option value="KW">Kuwait</option>
+                <option value="KG">Kyrgyzstan</option>
+                <option value="LA">Lao People's Democratic Republic</option>
+                <option value="LB">Lebanon</option>
+                <option value="MO">Macao</option>
+                <option value="MY">Malaysia</option>
+                <option value="MV">Maldives</option>
+                <option value="MN">Mongolia</option>
+                <option value="MM">Myanmar (Burma)</option>
+                <option value="NP">Nepal</option>
+                <option value="OM">Oman</option>
+                <option value="PK">Pakistan</option>
+                <option value="PS">Palestine</option>
+                <option value="PH">Philippines</option>
+                <option value="QA">Qatar</option>
+                <option value="RU">Russian Federation</option>
+                <option value="SA">Saudi Arabia</option>
+                <option value="SG">Singapore</option>
+                <option value="LK">Sri Lanka</option>
+                <option value="SY">Syria</option>
+                <option value="TW">Taiwan</option>
+                <option value="TJ">Tajikistan</option>
+                <option value="TL">Timor-Leste</option>
+                <option value="TR">Turkey (Türkiye)</option>
+                <option value="TM">Turkmenistan</option>
+                <option value="AE">United Arab Emirates</option>
+                <option value="UZ">Uzbekistan</option>
+                <option value="VN">Vietnam</option>
+                <option value="YE">Yemen</option>
+            </select>
+
+            <label for="Phone">Phone</label>
+            <input type="tel" placeholder="Enter Phone Number" name="phone" id="phone" required>
+
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="Enter your password" required>
+            
+            <label for="password-repeat">Repeat Password</label>
+            <input type="password" name="password-repeat" id="password-repeat" placeholder="Repeat password" required>
+            <hr>
+
+            <p style="text-align: center;">By creating an account you agree to our Term & Privacy</p>
+            <label >
+                <input type="checkbox" name="terms_agree" required>
+                I accept the <a href="#" target="_blank">Terms & Condition</a> and <a href="#" target="_blank">Privacy Policy</a>
+            </label>
+            <button type="submit" class="registerbtn">Register</button>
+
+            
+            <p style="text-align: center;">Already have an account?<a href="signin.html">Sign in</a></p>
+            
+        </div>
+    </form>
+</body>
+</html>

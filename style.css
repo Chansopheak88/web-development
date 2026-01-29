@@ -1,0 +1,77 @@
+* {box-sizing: border-box;}
+
+body{
+    color: #FFFFFF; /* White text for better contrast on dark gradients */
+    /* Linear gradient feels a bit more modern for slides than radial */
+    background: linear-gradient(135deg, #FF99CC, #3366FF); 
+    min-height: 100vh;
+}
+
+/*add padding to containers*/
+.container{
+    padding: 100px;
+    border: 1px solid #FFC2E0; /* Soft pink border */
+    border-radius:30px;
+    background-color: rgba(255, 255, 255, 0.2); /* Transparent white to let the gradient show through */
+    margin: 150px;
+    padding: 30px;
+}
+
+/*full width input fields*/
+input[type=text],input[type=password], input[type=tel],input[type=date] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    border-bottom: 2px solid #FF99CC; /* Pink underline */
+    background: #F0F2FF; /* Very light blue/white */
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=tel]:focus, input[type=date]:focus {
+    background-color: #FFFFFF;
+    outline: none;
+    border-bottom: 2px solid #3366FF; /* Blue underline on focus */
+}
+
+/*overwrite default styles of hr*/
+hr {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin-bottom: 25px;
+}
+
+.registerbtn{
+    /* Vibrant magenta-purple button */
+    background-color: #CC3399; 
+    color: white;
+    padding: 16px 20px;
+    margin: 9px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    font-weight: bold;
+    border-radius: 10px; /* Matching the rounded vibe of your slides */
+}
+
+.registerbtn:hover{
+    opacity: 1;
+    background-color: #B02A83;
+}
+
+/*add a color text color to link*/
+a {
+    color: #FFCCE5; /* Light pink link */
+}
+
+/*add styling to select*/
+select{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    border-bottom: 2px solid #FF99CC;
+    background: #F0F2FF;
+}
